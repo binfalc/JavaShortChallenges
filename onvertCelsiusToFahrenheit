@@ -1,0 +1,23 @@
+package com.codegym.task.task01.task0130;
+
+/* 
+My first converter!
+The convertCelsiusToFahrenheit(int celsius) method accepts a value in degrees Celsius. The method should convert the temperature and return the value in degrees Fahrenheit.
+The Celsius temperature (TC) and the Fahrenheit temperature (TF) are related by the following relationship:
+TC = (TF - 32) * 5/9.
+*/
+
+
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println(convertCelsiusToFahrenheit(41));
+    }
+
+    public static double convertCelsiusToFahrenheit(int celsius) {
+        double fahrenheit = 9/5.0 * celsius + 32;//write your code here
+
+        return fahrenheit;
+    }
+}
+
+//output 105.8
