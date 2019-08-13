@@ -1,0 +1,32 @@
+package com.codegym.task.task02.task0204;
+
+/* 
+Family relations
+In the main method, create a Man object and save a reference to it in the variable man.
+Also, create a Woman object and save a reference to it in the variable woman.
+
+Save a reference to the previously created Woman object in man.wife.
+Save a reference to the previously created Man object in woman.husband
+*/
+
+
+public class Solution {
+    public static void main(String[] args) {
+        Man man = new Man();
+        Woman woman = new Woman();
+        man.wife = woman;
+        woman.husband = man;//write your code here
+    }
+
+    public static class Man {
+        public int age;
+        public int height;
+        public Woman wife;
+    }
+
+    public static class Woman {
+        public int age;
+        public int height;
+        public Man husband;
+    }
+}
