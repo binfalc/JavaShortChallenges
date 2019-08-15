@@ -3,6 +3,9 @@ package com.codegym.task.task02.task0205;
 /* 
 Pay raise
 
+In the public static void hackSalary(int a) method, increase the salary by 1000 and display the following:
+"Your salary is: <a+1000> dollars per month." where <a+1000> is the salary increased by 1000.
+
 */
 public class Solution {
     public static void main(String[] args) {
@@ -10,9 +13,8 @@ public class Solution {
     }
 
     public static void hackSalary(int a) {
-        int increaseSalary = a+1000;
+        int increaseSalary = a + 1000;
         System.out.print("Your salary is: " +  increaseSalary);
         System.out.print(" dollars per month.");
-    //write your code here
     }
 }
