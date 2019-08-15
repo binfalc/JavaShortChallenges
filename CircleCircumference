@@ -3,6 +3,9 @@ package com.codegym.task.task01.task0129;
 /* 
 Calculate the circumference of a circle
 
+Display the circumference of a circle, which is calculated using the formula: C = 2 * pi * radius.
+The result is a fractional number (double).
+
 */
 
 public class Solution {
