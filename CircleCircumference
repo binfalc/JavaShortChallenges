@@ -1,0 +1,19 @@
+package com.codegym.task.task01.task0129;
+
+/* 
+Calculate the circumference of a circle
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        printCircleCircumference(5);
+    }
+
+    public static void printCircleCircumference(int radius) {
+        double pi = 13.14;
+        double circumference = 2 * pi * radius;
+        
+        System.out.println(circumference);//write your code here
+    }
+}
