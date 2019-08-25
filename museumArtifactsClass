@@ -11,7 +11,7 @@ public class Artifact {
 	
 	public Artifact() {
 		serial++;
-		this.objectType = "Serial: " + serial++;
+		this.objectType = "Serial: " + serial;
 		}
 	
 	
