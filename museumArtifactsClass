@@ -1,0 +1,61 @@
+package com.codegym.lessons;
+
+public class Artifact {
+	
+	String objectType;
+	int year;
+	String geoLocation;
+	String description;
+	
+	static int serial = 0;
+	
+	public Artifact() {
+		serial++;
+		this.objectType = "Serial: " + serial++;
+		}
+	
+	
+	public Artifact(String objectType, int year, String geoLocation, String description){
+		this.objectType = objectType;
+		this.year = year;
+		this.geoLocation = geoLocation;
+		this.description = description;
+	}
+	
+	public Artifact(String objectType, String description) {
+		this.objectType = objectType;
+		this.description = description;
+	}
+
+	public static void main(String[] args) {
+		
+		Artifact one = new Artifact("R2-D2, from Return of the Jedi", 2001, "Barbados", "In the fictional universe of George Lucas' Star Wars films, robots called droids come in many shapes and serve many purposes.");
+		Artifact two = new Artifact("Whisk, ca 1950", 1950, "Barbados", "From the moment when, in 1963, Julia Child whisked up an omelet on the pilot for her new cooking show.");
+		Artifact three = new Artifact("Glass Ballot Jar with Lockable Wooden Housing, 1884", "The glass ballot jar became a symbol of democratic self-government in 1884.");
+		
+		serial++;
+		System.out.println("Artifact name: " + one.objectType);
+		System.out.println("Period: " + one.year);
+		System.out.println("Geolocalization: " + one.geoLocation);
+		System.out.println("Description: " + one.description);
+		System.out.println();
+		
+		serial++;
+		System.out.println("Serial" + serial);
+		System.out.println("Artifact name: " + two.objectType);
+		System.out.println("Period: " + two.year);
+		System.out.println("Geolocalization: " + two.geoLocation);
+		System.out.println("Description: " + two.description);
+		System.out.println();
+		
+		serial++;
+		System.out.println("Serial" + serial);
+		System.out.println("Artifact name: " + three.objectType);
+		System.out.println("Period: " + three.year);
+		System.out.println("Geolocalization: " + three.geoLocation);
+		System.out.println("Description: " + three.description);
+		System.out.println();
+
+	}
+
+}
