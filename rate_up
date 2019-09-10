@@ -1,0 +1,19 @@
+package src.com.codegym.lessons;
+
+//Increase the passed integer by 10 percent. 
+
+public class Rateup {
+	public static double addTenPercent(int i) {
+		double rateUp = i + (i * 0.1);
+		
+		return rateUp;
+	}
+
+	public static void main(String[] args) {
+		System.out.println(addTenPercent(9));
+
+	}
+
+}
+
+// output 9.9
