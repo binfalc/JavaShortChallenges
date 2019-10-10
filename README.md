@@ -1,5 +1,5 @@
 # Java Practice exercises
-My path to Java training. This content shows the main challenges proposed by CodeGym platform in the training path for Java learning.
+The main challenges proposed by CodeGym platform in the training path for Java learning.
 
 # Content
 
