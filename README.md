@@ -12,5 +12,5 @@ The main challenges proposed by CodeGym platform in the training path for Java l
   <li>Create Animal Objects: Creating new instances of Animal class</li>
   <li>Convert Celsius to Fahrenheit: Convert the given Celsius to Fahrenheit scale</li>
   <li>Compare Four Numbers: given the conditions, compare the given numbers</li>
-  <li>Circle circumference: given the radio, calculate the circumference</li>
+  <li>Circle circumference: given the radius, calculate the circumference</li>
 </ul>
