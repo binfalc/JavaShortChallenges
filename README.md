@@ -13,4 +13,6 @@ The main challenges proposed by CodeGym platform in the training path for Java l
   <li>Convert Celsius to Fahrenheit: Convert the given Celsius to Fahrenheit scale</li>
   <li>Compare Four Numbers: given the conditions, compare the given numbers</li>
   <li>Circle circumference: given the radius, calculate the circumference</li>
+  <li>Attribute random order: display the attributes at any order</li>
+
 </ul>
