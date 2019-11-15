@@ -14,5 +14,6 @@ The main challenges proposed by CodeGym platform in the training path for Java l
   <li>Compare Four Numbers: given the conditions, compare the given numbers</li>
   <li>Circle circumference: given the radius, calculate the circumference</li>
   <li>Attribute random order: display the attributes at any order</li>
+  <li>Escape Characters: use escape characters that a compiler interprets differently than a person</li>
 
 </ul>
