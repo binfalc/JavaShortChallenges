@@ -12,10 +12,19 @@ public class Solution {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         
-        int number = sc.nextInt();
         String name = sc.nextLine();
+        int number = sc.nextInt();
         
         
-        System.out.println(name + "will take over the world in " + number + "years. Mwa-ha-ha!");
+        System.out.print(name + " will take over the world in " + number + " years. Mwa-ha-ha!");
     }
 }
+
+/*
+Input:
+Kevin
+8
+
+Output:
+Kevin will take over the world in 8 years. Mwa-ha-ha!
+*/
