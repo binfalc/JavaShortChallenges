@@ -1,0 +1,32 @@
+/* 
+Use the keyboard to separately enter the name, number1, and number2.
+Display the following phrase:
+<name> will receive <number1> in <number2> years.
+
+*/
+
+import java.io.*;
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        InputStreamReader read = new InputStreamReader(System.in);
+        BufferedReader buff = new BufferedReader(read);
+        
+        String name = buff.readLine();
+        String number1 = buff.readLine();
+        String number2 = buff.readLine();
+        
+        System.out.println(name + " will receive " + number1 + " in " + number2 + " years.");
+    }
+}
+
+/*
+Input
+Nick
+10000
+5
+
+Output
+Nick will receive 10000 in 5 years.
+
+*/
