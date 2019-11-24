@@ -16,5 +16,9 @@ The main challenges proposed by CodeGym platform in the training path for Java l
   <li>Attribute random order: display the attributes at any order</li>
   <li>Multiplication table: create a 10x10 multiplication table</li>
   <li>Escape Characters: use escape characters that a compiler interprets differently than a person</li>
+  <li>Data form keyboard: the system reads the keyboard input to print a sencence</li>
+  <li>Prediction from input: use a string input to display a prediction sentence</li>
+  <li>Prediction from inpu int: use an int input to display a prediction sentence</li>
+  <li>Read worker names: use input names to print their salary</li>
 
 </ul>
