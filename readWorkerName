@@ -1,0 +1,25 @@
+package com.codegym.task.task03.task0320;
+
+
+/* 
+Use the keyboard to enter the worker name and display the following:
+<name> makes $120,000 a year. Ha-ha-ha!
+
+*/
+
+import java.io.*;
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        
+        String name = bf.readLine();
+        
+        System.out.println(name + " makes $120,000 a year. Ha-ha-ha!");
+    }
+}
+
+/*
+Input: Sara
+Output: Sara makes $120,000 a year. Ha-ha-ha!
+*/
