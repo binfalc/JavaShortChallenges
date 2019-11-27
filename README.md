@@ -20,5 +20,7 @@ The main challenges proposed by CodeGym platform in the training path for Java l
   <li>Prediction from input: use a string input to display a prediction sentence</li>
   <li>Prediction from inpu int: use an int input to display a prediction sentence</li>
   <li>Read worker names: use input names to print their salary</li>
+  <li>Three inputs one line: use 3 input names to print a phrase which includes signals</li>
+  
 
 </ul>
