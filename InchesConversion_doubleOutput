@@ -13,11 +13,11 @@ public class Solution {
 
     public static int getFeetFromInches(int inches) {
         //write your code here
-        Double f=(0.83)*inches;
+        Double f=(0.083)*inches;
         Double d=new Double(f);
         int feet=d.intValue();
         return feet;
     }
 }
 
-//Output: 23
+//Output: 2.3
