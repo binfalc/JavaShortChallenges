@@ -1,0 +1,21 @@
+package com.codegym.task.task01.task0131;
+import java.lang.Math;
+
+/* 
+More conversions
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println(getFeetFromInches(28));
+    }
+
+    public static int getFeetFromInches(int inches) {
+        //write your code here
+        Double f=(0.83)*inches;
+        Double d=new Double(f);
+        int feet=d.intValue();
+        return feet;
+    }
+}
