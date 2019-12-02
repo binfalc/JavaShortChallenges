@@ -23,5 +23,6 @@ The main challenges proposed by CodeGym platform in the training path for Java l
   <li>Three inputs one line: use 3 input names to print a phrase which includes signals</li>
   <li>Inches conversion - double output: given the int attribute inches return the result as a double variable.</li>
   <li>Inches conversion - int output: given the int attribute inches return the result as a int variable.</li>
+  <li>Color Objects: Create 7 objects to display the 7 colors of the rainbow on the screen</li>
   
 </ul>
