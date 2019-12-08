@@ -1,8 +1,7 @@
 package com.codegym.task.task01.task0133;
 
 /* 
-Don't think about seconds…
-
+Write code that calculates how many seconds have passed since 3:00 PM when the clock says it's 3:30 PM. Display the result.
 */
 
 public class Solution {
