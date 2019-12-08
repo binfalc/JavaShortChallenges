@@ -4,6 +4,7 @@ The main challenges proposed by CodeGym platform in the training path for Java l
 # Content
 
 <ul>
+  <li>About seconds: calculates how many seconds have passed since the given time</li>
   <li>Attribute random order: display the attributes at any order</li>
   <li>Circle circumference: given the radius, calculate the circumference</li>
   <li>Color Objects: Create 7 objects to display the 7 colors of the rainbow on the screen</li>
