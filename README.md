@@ -23,6 +23,7 @@ The main challenges proposed by CodeGym platform in the training path for Java l
   <li>Rate up: Increases the passed integer by the given rate.</li>
   <li>Read worker names: use input names to print their salary</li>
   <li>Salary increase: Java class for increasing the given salary</li>
+  <li>Sum digits form the given int: The method takes the given number and sums the digits</li>
   <li>Three inputs one line: use 3 input names to print a phrase which includes signals</li>  
   <li>Time Converter: unit time conversor</li>
  </ul>
