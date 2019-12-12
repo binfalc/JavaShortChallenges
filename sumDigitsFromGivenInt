@@ -1,7 +1,9 @@
 package com.codegym.task.task01.task0132;
 
 /* 
-Sum of the digits of a three-digit number
+Sum of the digits of a three-digit number. 
+The method takes a three-digit whole number. 
+You need to calculate the sum of the digits of this number, and then return the result.
 
 */
 
@@ -20,3 +22,7 @@ public class Solution {
         return sum;
     }
 }
+
+/*
+Output: 15
+*/
