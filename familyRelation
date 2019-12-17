@@ -15,7 +15,7 @@ public class Solution {
         Man man = new Man();
         Woman woman = new Woman();
         man.wife = woman;
-        woman.husband = man;//write your code here
+        woman.husband = man;
     }
 
     public static class Man {
