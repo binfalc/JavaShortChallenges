@@ -1,0 +1,30 @@
+package com.codegym.task.task02.task0204;
+
+/* 
+Predator/food relations
+In the main method, create an Animal object and save a reference to it in the variable fish.
+Also, create a Food object and save a reference to it in the variable algae.
+
+Save a reference to the previously created Food object in fish.nutriment.
+Save a reference to the previously created Animal object in algae.predator
+*/
+
+
+public class Solution {
+    public static void main(String[] args) {
+        Animal fish = new Animal();
+        Food algae = new Food();
+        fish.nutriment = algae;
+        algae.predator = fish;
+    }
+
+    public static class Animal {
+        public string habitat;
+        public Food nutriment;
+    }
+
+    public static class Food {
+        public string habitat;
+        public Animal predator;
+    }
+}
