@@ -18,6 +18,7 @@ The main challenges proposed by CodeGym platform in the training path for Java l
   <li>Inches conversion - int output: given the int attribute inches return the result as a int variable.</li>
   <li>Multiplication table: create a 10x10 multiplication table</li>
   <li>Museum Artifacts: Java class to display museum artifacts</li>
+  <li>Predator- Food relations: Stablishing relations between two references</li>
   <li>Prediction from input: use a string input to display a prediction sentence</li>
   <li>Prediction from inpu int: use an int input to display a prediction sentence</li>
   <li>Rate up: Increases the passed integer by the given rate.</li>
