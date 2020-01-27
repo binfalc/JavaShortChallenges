@@ -1,0 +1,39 @@
+public class Car {
+
+    String brand;
+    int model;
+    String owner;
+    
+    stetic int count = 0;
+
+    public void run() {
+        System.out.println("Run!");
+    }
+
+    public void brake() {
+        System.out.println("brake!");
+    }
+
+    public static void main(String[] args) {
+        Car one = new Car();
+        one.brand = "Mercedes";
+        one.model = 2020;
+        one.owner = "Laura";
+        cunt++;
+        
+
+        one.run();
+        one.brake();
+
+        Car two = new Car();
+        two.brand = "Ford";
+        two.model = 2018;
+        two.owner = "Joseph";
+        cunt++;
+        
+
+        two.run();
+        two.brake();
+
+    }
+}
