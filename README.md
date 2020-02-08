@@ -11,7 +11,7 @@ The main challenges proposed by CodeGym platform in the training path for Java l
   <li>Compare Four Numbers: given the conditions, compare the given numbers</li>
   <li>Convert Celsius to Fahrenheit: convert the given Celsius to Fahrenheit scale</li>
   <li>Create Animal Objects: creating new instances of Animal class</li>
-  <li>Create the Class Functions Vehicle: creating functions for a vehicle, such as run or brake</li>
+  <li>Create Class Functions Vehicle: creating functions for a vehicle, such as run or brake</li>
   <li>Data form keyboard: the system reads the keyboard input to print a sencence</li>
   <li>Escape Characters: use escape characters that a compiler interprets differently than a person</li>
   <li>Family relations: Stablishing relations between two references</li>
