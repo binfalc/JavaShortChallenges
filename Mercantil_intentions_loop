@@ -1,0 +1,19 @@
+package com.codegym.task.task03.task0324;
+
+/* 
+Mercantile intentions X 10
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        
+        String intentions = "I want a big salary, and that's why I'm studying Java";
+        int repeatIntentions = 10;
+        
+        for(int count = 0; count < repeatIntentions; count ++){
+            System.out.println(intentions);
+        }
+        
+    }
+}
