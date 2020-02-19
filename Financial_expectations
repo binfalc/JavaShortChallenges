@@ -1,0 +1,23 @@
+package com.codegym.task.task03.task0325;
+
+import java.io.*;
+
+/* 
+Financial expectations: Use the keyboard to enter the number n.
+Display the phrase "I will earn $n per hour" on the screen.
+
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
+        
+        
+        int n = Integer.parseInt(buffer.readLine());
+        
+        /*String input = buffer.readLine(); 
+        int n = Integer.parseInt(input);  --> Option 2*/
+        
+        System.out.println("I will earn $" + n + " per hour");
+    }
+}
