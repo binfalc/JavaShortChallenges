@@ -1,11 +1,8 @@
-package com.codegym.task.task04.task0401;
-
 /* 
-
 Think about what the program is doing.
 Fix the programming error so that person.age changes value. 
 The Person class's adjustAge method should increase the Person's age by 20.
-
+The main method should call the adjustAge method only once.
 */
 
 Error log:
