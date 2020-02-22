@@ -2,7 +2,35 @@ package com.codegym.task.task04.task0401;
 
 /* 
 
+Think about what the program is doing.
+Fix the programming error so that person.age changes value. 
+The Person class's adjustAge method should increase the Person's age by 20.
+
 */
+
+Error log:
+public class Solution {
+    public static void main(String[] args) {
+
+        Person person = new Person();
+        System.out.println("Age: " + person.age);
+        person.adjustAge(person.age);
+        System.out.println("Adjusted age: " + person.age);
+    }
+
+    public static class Person {
+        public int age = 20;
+
+        public void adjustAge(int age) {
+            age = age + 20;
+            System.out.println("The age in adjustAge() is " + age);
+        }
+    }
+}
+
+
+Solution:
+
 public class Solution {
     public static void main(String[] args) {
 
@@ -21,3 +49,9 @@ public class Solution {
         }
     }
 }
+
+/*
+Output:
+Age: 20
+The age in adjustAge() is 20
+*/
