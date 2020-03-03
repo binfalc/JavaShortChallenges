@@ -14,6 +14,7 @@ The main challenges proposed by CodeGym platform in the training path for Java l
   <li>Create Class Functions Vehicle: creating functions for a vehicle, such as run or brake</li>
   <li>Data form keyboard: the system reads the keyboard input to print a sencence</li>
   <li>Escape Characters: use escape characters that a compiler interprets differently than a person</li>
+  <li>Fix bug adjustment price: The returned price does not match with the right adjustment. Fix the bug
   <li>Family relations: Stablishing relations between two references</li>
   <li>Inches conversion - double output: given the int attribute inches return the result as a double variable.</li>
   <li>Inches conversion - int output: given the int attribute inches return the result as a int variable.</li>
