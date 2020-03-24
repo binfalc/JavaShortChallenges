@@ -5,7 +5,8 @@ The main challenges proposed by CodeGym platform in the training path for Java l
 
 <ul>
   <li>About seconds: calculates how many seconds have passed since the given time</li>
-  <li>Attribute random order: Sset attributes and display them at any order</li>
+  <li>Apple price passed-in value: Calculate the total cost of apples using the Apple class's addPrice method</li>
+  <li>Attribute random order: Set attributes and display them at any order</li>
   <li>Circle circumference: given the radius, calculate the circumference</li>
   <li>Color Objects: Create 7 objects to display the 7 colors of the rainbow on the screen</li>
   <li>Compare Four Numbers: given the conditions, compare the given numbers</li>
